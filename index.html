@@ -12,11 +12,10 @@
 </head>
 
 <body>
+    <header class="text-center">
+        <a href="https://tiffanyskye-dietetique.fr/"><img height="80px" width="auto" src="logo.png"></a>
+    </header>
     <div class="firstscreen">
-        <header class="text-center">
-            <a href="https://tiffanyskye-dietetique.fr/"><img height="80px" width="auto" src="logo.png"></a>
-        </header>
-
         <div class="container">
             <div class='introduction'>
                 <h1> Une boutique pour les fans de nutrition !</h1>
@@ -37,11 +36,11 @@
 
         <div class="row">
 
-            <div class="col">
-                <img class="nutrition-img" src="nutrition.jpg">
+            <div class="col-12 col-lg-6  ">
+                <img class="nutrition-img" src="nutrition.jpg" width="100%" height="auto">
             </div>
 
-            <div class="col">
+            <div class="col-12 col-lg-6  text-center">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
                     laoreet, magna vitae
                     hendrerit auctor,
@@ -52,20 +51,18 @@
                     sollicitudin, libero sem hendrerit nisl, at fringilla urna ex vulputate nunc. Cras vitae aliquet
                     eros.
                     Vestibulum auctor vehicula nunc nec rutrum. Aenean nec imperdiet arcu, a congue nisi.</p>
-
-                <div class="bouton">
-                    <p>
-                        <a href="https://tiffanyskye-dietetique.fr/boutique/">Notre boutique</a>
-                    </p>
-                </div>
+                <button class="bouton" href="https://tiffanyskye-dietetique.fr/boutique/">Notre boutique</button>
 
             </div>
 
         </div>
 
         <div class="row">
+            <div class="col-12 d-block d-lg-none">
+                <img class="nutrition-img" src="nutrition.jpg">
+            </div>
 
-            <div class="col text-right">
+            <div class="col-12 col-lg-6  text-center">
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
                     laoreet, magna vitae
@@ -77,19 +74,37 @@
                     sollicitudin, libero sem hendrerit nisl, at fringilla urna ex vulputate nunc. Cras vitae aliquet
                     eros.
                     Vestibulum auctor vehicula nunc nec rutrum. Aenean nec imperdiet arcu, a congue nisi.</p>
-
-                <div class="bouton btn-right">
-                    <p>
-                        <a href="https://tiffanyskye-dietetique.fr/boutique/">Notre boutique</a>
-                    </p>
-                </div>
+                <button class="bouton" href="https://tiffanyskye-dietetique.fr/boutique/">Notre boutique</button>
 
             </div>
 
-            <div class="col">
+            <div class="col-6 d-none d-lg-block">
                 <img class="nutrition-img" src="nutrition.jpg">
             </div>
 
+        </div>
+
+        <div class="col-12 text-center">
+            <h2>Venez visiter notre boutique !</h2>
+            <button class="bouton" href="https://tiffanyskye-dietetique.fr/boutique/">Notre boutique</button>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-12">
+                <h2>Inscrivez vous à notre newsletter</h2>
+            </div>
+            <form class="col-12">
+                <div class="form-group">
+                    <input type="name" class="form-control"placeholder="Nom" width="50%">
+                </div>
+                <div class="form-group">
+                    <input type="name" class="form-control"placeholder="Prénom">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="email">
+                </div>
+                <button type="submit" class="bouton">Submit</button>
+            </form>
         </div>
 
     </div>

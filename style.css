@@ -9,9 +9,12 @@ header {
     border-bottom: 1px dotted #ccc;
     padding: 20px
 }
+h2{
+    margin: 20px 0px;
+}
 
 .firstscreen {
-    height: 100vh;
+    margin:20px;
 }
 
 .introduction {
@@ -56,13 +59,9 @@ p {
     justify-content: center;
 }
 
-.btn-right {
-    display: flex;
-    flex-flow: row-reverse;
-}
 
-.bouton a {
-    display: block;
+.bouton{
+    margin: 10px;
     width: 150px;
     line-height: 50px;
     text-align: center;
@@ -71,4 +70,8 @@ p {
     color: white;
     text-decoration: none;
     border-radius: 30px;
+    border: white;
+}
+form{
+    width: 60%;
 }
