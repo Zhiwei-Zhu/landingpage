@@ -1,67 +1,42 @@
-@font-face {
-    font-family: 'moon_flowerregular';
-    src: url('moon_flower-webfont.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+body, html {
+    height: 100%;
 }
 
-header {
-    border-bottom: 1px dotted #ccc;
-    padding: 20px
+.parallax {
+    background-image: url('img/mainimg.jpg');
+    height: 20%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-h2 {
+.jumbotron{
+    background-image: url('img/fullimg1.jpg');
+
+}
+
+.contenu{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.btn{
+    background-color:     #c9184e;
+    color: #ffff;
+    letter-spacing: 5px;
+}
+
+h2{
     margin: 20px 0px;
+    color:#ff6665 !important;
 }
 
-.firstscreen {
-    margin: 20px;
-}
-
-.introduction {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    flex-direction: column;
-    padding-top: 25px;
-}
-
-.introduction img {
-    height: auto;
-    width: 80%;
-    border: solid 1px;
-    margin: auto;
-}
-
-.introduction h1 {
-    text-align: center;
-    margin-bottom: 30px;
-    font-family: 'moon_flowerregular';
-    font-size: 50px;
-}
-
-p {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.presentation {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.row {
-    margin-bottom: 50px;
-}
-
-.nutrition-img {
-    width: 80%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-}
-
+h1{text-shadow: 0 -4px 0 #ff4045;}
 
 .bouton {
+    padding: 20px;
     margin: 10px;
     width: 150px;
     line-height: 50px;
@@ -72,8 +47,10 @@ p {
     text-decoration: none;
     border-radius: 30px;
     border: white;
+
 }
 
-form {
-    width: 60%;
+.row{
+    margin-top:70px ;
 }
+
