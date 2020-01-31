@@ -1,0 +1,54 @@
+<mjml>
+  <mj-body background-color="#fffff">
+    <mj-section>
+      <mj-column>
+        <mj-image href="https://tiffanyskye-dietetique.fr/boutique" src="https://tiffanyskye-dietetique.fr/wp-content/uploads/2016/11/cropped-Capture-d%E2%80%99%C3%A9cran-2016-11-15-%C3%A0-15.05.56.png" alt="logo" align="center" padding="0px"></mj-image>
+
+      </mj-column>
+
+    </mj-section>
+    <mj-section padding-bottom="0px" padding-top="0">
+      <mj-column width="100%">
+        <mj-text align="center" color="#ff6665" padding-left="25px" padding-right="25px" padding-bottom="10px" padding-top="10px">
+          <p style="font-size: 30px; letter-spacing: 4px; font-weight: bold"> Ouverture de la boutique !!!</p>
+          <p style="font-size: 20px; line-height: 25px">Notre boutique sera en capacité de vous proposer des livrets personnalisés par nos soins, afin de vous proposer des conseils mensuels ! Ces livres électroniques (téléchargement en pdf) seront tous disponibles et ajoutés sur notre boutique au fur et à mesure ! Si vous êtes satisfait(e) de notre boutique, vous aurez la possibilité d’accéder à des packs saisonniers regroupant l’ensemble des mois de la saison ! Le pack contenant tous les e-books de l’Hiver étant déjà disponible sur notre boutique.</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text align="center" color="#ff5747" padding-bottom="10px" padding-top="10px">
+          <p style="font-size: 30px; letter-spacing: 4px; font-weight: bold">Nos produits</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="200px" background-color="#ff6665">
+        <mj-text align="left" color="#fff" padding-left="25px" padding-right="25px" padding-top="30px" padding-bottom="50px">
+          <p style="font-size: 17px;">PACK 3 e-book</p>
+          <p style="font-size: 30px; margin-bottom: 40px">29,90€</p><br />
+          <a href="https://tiffanyskye-dietetique.fr/produit/pack-3-e-books-hiver/" style="font-size: 19px; color: white; text-decoration: none;background-color:#ffb071; padding: 10px; border-radius: 30px"> Voir le produit</a>
+        </mj-text>
+      </mj-column>
+      <mj-column width="400px">
+        <mj-image src="https://tiffanyskye-dietetique.fr/wp-content/uploads/2020/01/ebook-pack-hiver.jpg" alt="book" order="none" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="0"></mj-image>
+      </mj-column>
+
+
+
+      <mj-section background-repeat="repeat" padding-bottom="0px" padding-top="0px" text-align="center" vertical-align="top">
+
+        <mj-column>
+          <mj-image padding-top="70px" height="auto" src="https://img.over-blog-kiwi.com/0/55/21/25/20140704/ob_fe6952_sport-maigrir.jpg"></mj-image>
+        </mj-column>
+        <mj-column>
+          <mj-text align="left" font-size="13px" padding-bottom="0px" padding-top="50px">
+            <p style="font-size: 30px; color:#ff6665;"><b>La boutique</b></p><br />
+            <p style="font-size:16px; color:#ff6665; line-height: 20px">Nos livres électroniques évoquent une thématique propre à chacun. De cette manière, vous pourrez y retrouver tous types d’informations utiles, comme des propositions de recettes, des conseils nutritionnistes, ou encore des anecdotes et autres ! Notre but est de vous fournir des e-books riches et complets en conseils et informations pour solidifier notre communauté</p>
+          </mj-text>
+          <mj-button align="center" background-color="#ff6665" color="#ffffff" font-size="15px">En savoir plus</mj-button>
+
+        </mj-column>
+      </mj-section>
+    </mj-section>
+
+
+  </mj-body>
+
+</mjml>
